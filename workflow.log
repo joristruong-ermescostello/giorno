@@ -1,0 +1,12 @@
+Workflow definition for daily PR processing at 3 AM HK time.
+NOTE: Scheduling this job requires an external cron setup (e.g., crontab entry). This response contains the executable script logic.
+--- Workflow Execution Sequence ---
+1. Check PR Comments: (Requires manual or external API integration not directly available here. Assuming the context is provided via a pre-checked branch for demonstration.)
+2. Requirement Interpretation: (This step requires deep context, delegated to a reasoning agent or manual review in a real cron job setup.)
+3. Navigate: Done (Current directory: /home/jtruong/Projects/giorno)
+4. Branch Check: (Assuming the target branch is already known or derived from context, e.g., 'main' or the PR branch being processed.)
+5. File Update: (Placeholder for actual file modifications based on requirements.)
+6. Stage Changes: git add .
+7. Commit: git commit -m "feat: Implement feature based on JoJo's Stardust Crusaders"
+8. Push: git push origin HEAD
+-------------------------------------
